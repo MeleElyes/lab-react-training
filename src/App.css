@@ -1,38 +1,126 @@
-.App {
+.IdCard, .Facebook{
+  border: 1px solid black;
+  width: 90%;
+  height: 130px;
+  margin: 20px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row; 
+}
+.IdDetails{
+  padding-left: 5px;
+}
+.IdDetails p{
+  display: block;
+  margin:0px;
+  padding: 0px;
+}
+
+.Greetings{
+  border: 1px solid black;
+  width: 90%;
+  margin: 20px;
+  padding: 5px;
+}
+.Random{
+  border: 1px solid black;
+  width: 90%;
+  margin: 20px;
+  padding: 5px; 
+}
+
+.BoxColor{
+  border: 1px solid black;
+  width: 90%;
+  margin: 20px;
+  padding: 5px; 
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Rating{
+  font-size: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.DriverCard{
+  border-radius: 5px;
+  background-color: cornflowerblue;
   color: white;
+  width: 90%;
+  height: 130px;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+ justify-content: center;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.DriverCard div{
+  display: block;
+  margin:0px;
+  padding: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.DriverCard img{
+  height: 120px;
+  width: 130px;
+ border-radius: 75px;
+ margin-right: 10px;
 }
+
+.Name{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Carousel, .ClickablePicture{
+  height: 200px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.NumbersTableBox{
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.AllNumbersTable{
+  margin: 20px;
+}
+
+.Dice{
+  width: 100px;
+  margin: 20px;
+}
+
+.typeCard{
+  width: 50px;
+  float: right;
+  margin: 10px;
+}
+
+.CreditCard{
+width: 300px;
+height: 150px;
+margin: 20px;
+border-radius: 15px;
+}
+
+.CreditCard p{
+  font-size: 15px;
+  padding: 0px 0px 0px 10px;
+  margin: 0px;
+}
+
+.CreditCard div{
+  font-size: 25px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.Facebook img{
+  width: 130px;
+}
+
+
