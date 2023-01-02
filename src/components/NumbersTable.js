@@ -12,7 +12,8 @@ const NumbersTable = (props) => {
   };
 
   return (
-    <div className='AllNumbersTable'>
+    <table>
+    <tbody className='AllNumbersTable'>
     <tr className='NumbersTable'>
       {array.map((element, index) =>
         element % 2 === 0 ? (
@@ -26,7 +27,8 @@ const NumbersTable = (props) => {
         )
       )}
     </tr>
-    </div>
+    </tbody>
+    </table>
   );
 };
 

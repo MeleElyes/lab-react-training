@@ -1,7 +1,7 @@
 .IdCard, .Facebook{
   border: 1px solid black;
   width: 90%;
-  height: 130px;
+  height: 140px;
   margin: 20px;
   padding: 5px;
   display: flex;
@@ -126,11 +126,16 @@ border-radius: 15px;
 }
 
 .Facebook img{
-  width: 130px;
+  width: 120px;
 }
 
 .actif{
   background-color: blue;
+}
+
+.SignupPage{
+  margin: 20px;
+  padding: 5px;
 }
 
 

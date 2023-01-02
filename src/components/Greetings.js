@@ -16,7 +16,7 @@ const Greetings = (props) => {
     return(
     <>
         <div className="Greetings">
-            <p>{language()} {props.children}</p>
+            {language()} {props.children}
 
         </div>
     </>
